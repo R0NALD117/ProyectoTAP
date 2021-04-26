@@ -1,4 +1,4 @@
-package main;
+package game;
 
 import javax.swing.*;
 
@@ -6,7 +6,7 @@ import mapas.Mapa;
 
 import java.awt.*;
 
-public class Ventana extends JFrame{
+public class Game extends JFrame{
 	
 	/**
 	 * 
@@ -15,7 +15,7 @@ public class Ventana extends JFrame{
 	
 	private Mapa obj_pintable;
 
-	public Ventana() {
+	public Game() {
 		
 		Toolkit Pantalla = Toolkit.getDefaultToolkit();
 		
@@ -44,7 +44,7 @@ public class Ventana extends JFrame{
 
 	public static void main(String args[]) {
 		
-		Ventana v1 = new Ventana();
+		Game v1 = new Game();
 		
 	}
 	
