@@ -13,7 +13,7 @@ public class Mapa extends Canvas{
 
 	public Mapa() {
 		
-		String pathImagen = "recursos/Mapa1.png";
+		String pathImagen = "mapas/Mapa1.png";
 		
 		imagen = Toolkit.getDefaultToolkit().getImage(pathImagen);
 		
